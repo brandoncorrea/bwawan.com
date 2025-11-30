@@ -20,4 +20,4 @@ jobs:
           ./install
 
       - name: Run Babashka Tests
-        run: bb test
+        run: bb spec
